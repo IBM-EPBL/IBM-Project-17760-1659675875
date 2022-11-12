@@ -1,0 +1,15 @@
+import wiotp.sdk.device
+import time
+import random
+import requests, json
+
+myConfig = { 
+    "identity": {
+        "orgId": "a4aah7",
+        "typeId": "AApp1",
+        "deviceId":"861895"
+    },
+    "auth": {
+        "token": "12345678"
+    }
+}
